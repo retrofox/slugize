@@ -2,7 +2,7 @@
   "name": "slugize",
   "repo": "retrofox/slugize",
   "description": "Slugize a string",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": ["slugize", "string"],
   "dependencies": {},
   "development": {},
