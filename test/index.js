@@ -1,6 +1,6 @@
 var slugize = require('../');
 
-describe('slugize(string, 20)', function(){
+describe('slugize(string)', function(){
   it('should return a string equal to \'josip-radosevic\'', function(){
     slugize('Josip Radošević').should.be.equal('josip-radosevic');
   });
