@@ -1,0 +1,5 @@
+
+# slugize
+
+  Slugize a string
+
