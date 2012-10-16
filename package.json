@@ -1,0 +1,13 @@
+{
+  "name": "slugize-component",
+  "author": "Damian Suarez <rdsuarez@gmail.com>",
+  "version": "0.1.0",
+  "dependencies": {
+    "standarize-component": "*",
+    "namize-component": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+}
