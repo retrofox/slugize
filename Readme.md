@@ -7,7 +7,7 @@
 
 ```
 $ npm install slugize
-$ component install component/slugize
+$ component install retrofox/slugize
 ```
 
 ## API
