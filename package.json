@@ -2,6 +2,11 @@
   "name": "slugize-component",
   "author": "Damian Suarez <rdsuarez@gmail.com>",
   "version": "0.1.0",
+  "component": {
+    "scripts": {
+      "slugize/index.js": "index.js"
+    }
+  },
   "dependencies": {
     "standarize-component": "*",
     "namize-component": "*"
