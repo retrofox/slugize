@@ -1,0 +1,101 @@
+
+<!DOCTYPE 5>
+<html>
+  <head>
+    <title>Slugize component</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+      body {
+        padding: 50px;
+        font-family: sans-serif;
+        color: #555;
+      }
+
+      label {
+        display: block;
+        color: #aaa;
+        font-size: 17px;
+        margin-bottom: 5px;
+      }
+
+      input {
+        padding: 0 5px;
+        margin: 0;
+        height: 34px;
+        line-height: 34px;
+        width: 510px;
+        border: 1px solid #eee;
+        background-color: #f8f8f8;
+        color: #274;
+        font-size: 14px;
+      }
+
+      #result {
+        width: 500px;
+        margin: 20px 0;
+        border: 1px solid #dfd;
+        height: 34px;
+        line-height: 34px;
+        color: #4a0;
+        padding: 0 5px;
+        background-color: #f0fff0;
+      }
+
+      #ribbon {
+        position: absolute;
+        top: 2.5em;
+        right: -3.75em;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        background-color: #b3d107;
+        padding: 1px 0;
+        overflow: hidden;
+        -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+      }
+
+      #ribbon a {
+        color: #fff;
+        border: 1px solid #d5e965;
+        display: block;
+        margin: 0.05em 0;
+        padding: 0.5em 3.5em;
+        text-align: center;
+        text-decoration: none;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="ribbon">
+      <a href="http://github.com/component/ellipse">Fork me on GitHub</a>
+    </div>
+
+    <h2>Slugize</h2>
+    <script src="../build/build.js"></script>
+    <label>Try and test it</label>
+    <input type="text" value="Ñam Fri Frufi Frali Fru!!" id="source" name="source" />
+    <div id="result"></div>
+
+    <script>
+      var slugize = require('slugize');
+
+      var sc = document.getElementById('source');
+      var rs = document.getElementById('result');
+
+      sc.onkeyup = slug;
+
+      function slug () {
+        rs.innerHTML = "";
+        rs.innerHTML = slugize(sc.value);
+      }
+
+      slug();
+
+      sc.focus();
+
+    </script>
+  </body>
+</html> 
