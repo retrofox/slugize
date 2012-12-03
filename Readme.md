@@ -1,7 +1,7 @@
 
 # Slugize
 
-  String slugize utility
+  String slugize utility. [Testing page](http://retrofox.github.com/slugize)
 
 ## Installation
 
