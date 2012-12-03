@@ -1,4 +1,10 @@
 
+0.1.1 / 2012-12-03 
+==================
+
+  * test: add client-side testing page
+  * core: implement client/server side loading component dependencies
+
 0.1.0 / 2012-10-16 
 ==================
 
