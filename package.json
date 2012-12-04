@@ -9,5 +9,10 @@
   "devDependencies": {
     "mocha": "*",
     "should": "*"
+  },
+  "component": {
+    "scripts": {
+      "slugize": "index.js"
+    }
   }
 }
