@@ -55,6 +55,26 @@
         box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
       }
 
+      #counter {
+        position: fixed;
+        top: 4.5em;
+        right: -6.5em;
+        width: 400px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        background-color: #f0f0f0;
+        padding: 1px 0;
+        overflow: hidden;
+        -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+      }
+
+      #counter img {
+        display: block;
+        margin: 0 auto;
+      }
+
       #ribbon a {
         color: #fff;
         border: 1px solid #d5e965;
@@ -71,6 +91,10 @@
   <body>
     <div id="ribbon">
       <a href="http://github.com/retrofox/slugize">Fork me on GitHub</a>
+    </div>
+
+    <div id="counter">
+      <img src="https://component.jit.su/component-badge.svg" height="40" />
     </div>
 
     <h2>Slugize</h2>
