@@ -1,4 +1,10 @@
 
+0.1.2 / 2012-12-04 
+==================
+
+  * make: add `testall` rule
+  * pck: add component reference
+
 0.1.1 / 2012-12-03 
 ==================
 
