@@ -22,6 +22,12 @@ test:
 		--bail \
 		--reporter spec
 
+testall:
+	clear;
+	make all;
+	npm install;
+	make test;
+
 buildtest:
 	clear
 	make
