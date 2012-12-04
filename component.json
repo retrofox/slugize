@@ -2,6 +2,8 @@
   "name": "slugize",
   "repo": "retrofox/slugize",
   "description": "Slugize a string",
+  "author": "Damian Suarez <rdsuarez@gmail.com>",
+  "twitter": "@retrofox",
   "version": "0.1.1",
   "keywords": ["slugize", "string"],
   "dependencies": {
