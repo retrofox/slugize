@@ -12,7 +12,7 @@
   },
   "component": {
     "scripts": {
-      "slugize": "index.js"
+      "slugize/index.js": "index.js"
     }
   }
 }
