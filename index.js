@@ -2,13 +2,8 @@
  * Module dependencies
  * */
 
-try {
-  var standarize = require('standarize')
-    , namize = require('namize');
-} catch(e){
-  var standarize = require('standarize-component')
-    , namize = require('namize-component');
-}
+var standarize = require('standarize');
+var namize = require('namize');
 
 /**
  * Slugize a string
