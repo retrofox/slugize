@@ -4,7 +4,7 @@
   "description": "Slugize a string",
   "author": "Damian Suarez <rdsuarez@gmail.com>",
   "twitter": "@retrofox",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "keywords": ["slugize", "string"],
   "dependencies": {
     "retrofox/standarize": "*",
